@@ -71,14 +71,11 @@ main{
 }
 
 h1{
-    color: var(--stone900);
-}
-
-h1{
     font-size: 2rem;
     margin-bottom: 1.25rem;
     padding: 1.56rem 1.56rem 0 1.56rem;
     line-height: 2.06rem;
+    color: var(--stone900);
 }
 
 p,ul,ol,table{
@@ -133,7 +130,6 @@ h2 {
     margin-bottom: 0.75rem;
 }
 #ingredientSection{
-    border: 2px solid black;
     width: 100%;
 }
 .ingredientList li{
@@ -186,3 +182,25 @@ tr:last-child td{
     color: var(--brown800);
     font-weight: var(--heavy);
 }
+
+
+@media (min-width: 465px) {
+    p,ul,ol,table{
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+    
+    #introSection ul p{
+        font-size: 1.4rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+}
+
+
+
