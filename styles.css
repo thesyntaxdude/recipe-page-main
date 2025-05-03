@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*css reset*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+header,
+main,
+section,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*variables*/
+:root{
+    --white: hsl(0, 0%, 100%);
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+    --brown800: hsl(14, 45%, 36%);
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
+    --light: 400;
+    --medium: 600;
+    --heavy: 700;
+}
+
+body{
+    font-family: 'Young Serif', 'Outfit', sans-serif;
+    background-color: var(--white);
+}
+
+main{
+    padding: 0 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+h1{
+    color: var(--stone900);
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    padding: 1.56rem 1.56rem 0 1.56rem;
+    line-height: 2.06rem;
+}
+
+p,ul,ol,table{
+    font-weight: var(--light);
+    font-family: outfit;
+    font-size: 1.02rem;
+    color: var(--stone600);
+}
+.bold {
+    font-weight: var(--medium);
+}
+
+ul{
+    list-style: disc;
+}
+
+li{
+    padding-bottom: 0.6rem;
+    width: 80%;
+    margin: auto;
+}
+
+#introSection ul {
+    background-color: var(--rose50);
+    padding: 1.56rem;
+    border-radius: 0.94rem;
+    margin: 0.94rem;
+}
+
+#introSection ul p{
+    color: var(--rose800);
+    font-size: 1.1rem;
+    font-weight: var(--medium);
+    margin-bottom: 0.94rem;
+}
+
+#introSection li{
+    padding-left: 0.56rem;
+}
+
+#introSection li:last-child{
+    padding-bottom: 0;
+}
+
+#introSection li::marker{
+    color: var(--rose800);
+}
+
+
