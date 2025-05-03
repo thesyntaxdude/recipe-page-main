@@ -133,7 +133,7 @@ h2 {
     margin-bottom: 0.75rem;
 }
 
-.ingredientList li {
+.ingredientList li, .instructionsList li {
     padding-left: 0.3rem;
 }
 
@@ -147,5 +147,16 @@ h2 {
     height: 0.063rem;
     background-color: var(--stone150);
     margin: 18px auto;
+}
+
+.instructionsList li{
+    list-style-type: numbers;
+    width: 90%;
+    padding-left: 1.2rem;
+    
+}
+
+.instructionsList li::marker{
+    font-weight: var(--medium);
 }
 
