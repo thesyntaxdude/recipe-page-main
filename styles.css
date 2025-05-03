@@ -92,7 +92,7 @@ p,ul,ol,table{
 }
 
 ul{
-    list-style: disc;
+    list-style-type: disc;
 }
 
 li{
@@ -132,15 +132,18 @@ h2 {
     margin-top: 0.63rem;
     margin-bottom: 0.75rem;
 }
-
-.ingredientList li, .instructionsList li {
+#ingredientSection{
+    border: 2px solid black;
+    width: 100%;
+}
+.ingredientList li{
     padding-left: 0.3rem;
-    font-weight: var(--medium);
 }
 
 .ingredientList li::marker,
 .instructionsList li::marker {
     color: var(--brown800);
+    font-weight: var(--medium);
 }
 
 .divider {
@@ -154,7 +157,32 @@ h2 {
     list-style-type: numbers;
     width: 90%;
     padding-left: 1.2rem;
+}
+
+#nutritionSection p{
+    padding: 0.5rem 0.125rem;
+}
+
+table{
+    width: 85%;
+    margin: 0.94rem auto; 
     
 }
 
+table td{
+    width: 50%;
+    border-bottom: 1px solid var(--stone150);
+    padding: 0.75rem;
+    padding-right: 2.1rem;
+    text-align: left;
+}
 
+tr:last-child td{
+    border: none;
+    margin-bottom: 1.25rem;
+}
+
+.tdColored{
+    color: var(--brown800);
+    font-weight: var(--heavy);
+}
