@@ -117,14 +117,14 @@ li {
     padding-bottom: 0.6rem;
 }
 
-#introSection ul {
+#introSection .quickOverviewContainer {
     background-color: var(--rose50);
     padding: 1.56rem;
     border-radius: 0.94rem;
     margin: 0.94rem;
 }
 
-#introSection ul p {
+#introSection h3 {
     color: var(--rose800);
     font-size: 1.1rem;
     font-weight: var(--medium);
