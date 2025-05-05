@@ -19,12 +19,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./recipe-page-main-screenshot.png)
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: [github repo]
+- Live Site URL: [recipe page]
 
 ## My process
 
@@ -38,3 +38,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Frontend Mentor - [@thesyntaxdude](https://www.frontendmentor.io/profile/thesyntaxdude)
 - Twitter - [@thesyntaxdude](https://www.twitter.com/thesyntaxdude)
+
+
+
+
+[github repo]: <https://github.com/thesyntaxdude/recipe-page-main>
+[recipe page]: <https://thesyntaxdude.github.io/recipe-page-main>
