@@ -147,7 +147,9 @@ li {
 #introSection li::marker {
     color: var(--rose800);
 }
-
+.hidden{
+    display: none;
+}
 
 
 #ingredientSection {
