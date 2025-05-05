@@ -183,24 +183,3 @@ tr:last-child td{
     font-weight: var(--heavy);
 }
 
-
-@media (min-width: 465px) {
-    p,ul,ol,table{
-        font-size: 1.3rem;
-    }
-
-    h1 {
-        font-size: 2.3rem;
-    }
-    
-    #introSection ul p{
-        font-size: 1.4rem;
-    }
-    
-    h2{
-        font-size: 2rem;
-    }
-}
-
-
-
