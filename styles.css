@@ -88,6 +88,7 @@ h1 {
     line-height: 2.06rem;
     color: var(--stone900);
 }
+
 h2 {
     color: var(--brown800);
     margin-top: 0.63rem;
@@ -147,7 +148,8 @@ li {
 #introSection li::marker {
     color: var(--rose800);
 }
-.hidden{
+
+.hidden {
     display: none;
 }
 
@@ -179,7 +181,7 @@ li {
     padding-left: 1.2rem;
 }
 
-#nutritionSection{
+#nutritionSection {
     width: 100%;
 }
 
@@ -223,8 +225,8 @@ tr:last-child td {
 
 @media (min-width: 600px) {
     body {
-            margin: 8rem;
-        } 
+        margin: 8rem;
+    }
 
     .container {
         max-width: 600px;
