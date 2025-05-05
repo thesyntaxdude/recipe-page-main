@@ -124,7 +124,7 @@ li {
     margin: 0.94rem;
 }
 
-#introSection h3 {
+#introSection h2 {
     color: var(--rose800);
     font-size: 1.1rem;
     font-weight: var(--medium);
