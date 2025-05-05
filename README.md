@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [github repo]
+- Solution URL: [frontend mentor]
 - Live Site URL: [recipe page]
 
 ## My process
@@ -37,15 +37,15 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
   I realised I still have some issues with responsive design and should work at it. 
-  
+
 
 ## Author
 
 - Frontend Mentor - [@thesyntaxdude](https://www.frontendmentor.io/profile/thesyntaxdude)
 - Twitter - [@thesyntaxdude](https://www.twitter.com/thesyntaxdude)
+- LinkedIn - [@princeakakpo](https://www.linkedin.com/in/princeakakpo)
 
 
 
-
-[github repo]: <https://github.com/thesyntaxdude/recipe-page-main>
+[frontend mentor]: <https://www.frontendmentor.io/solutions/responsive-recipe-page-html5-and-vanilla-css-l8RmKq3ylb>
 [recipe page]: <https://thesyntaxdude.github.io/recipe-page-main>
